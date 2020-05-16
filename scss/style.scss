@@ -1,0 +1,40 @@
+$myFont:  sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+$fontSize:50px;
+$fontSizebtn:18px;
+$textCenter:center;
+$fontWeight:15px;
+$fontWeightbtn:7px;
+$fontStyle:italic;
+$mypadding: 8px;
+$marginBtn:2px;
+$borderwidth:10px;
+$borderradius:15px;
+
+
+
+
+ 
+
+#header2 {
+    p{
+    font-weight:$fontWeight ;
+    font-size: $fontSize;
+    font-style: $fontStyle;
+    border: 3px double #e947c6;
+    border-radius: $borderradius;
+    text-align: $textCenter;
+    color: $myColor;
+     
+    }
+    
+}
+
+#header2 p:hover {
+    border-width:$borderwidth ;
+  }
+
+    
+ 

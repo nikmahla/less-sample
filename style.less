@@ -1,0 +1,59 @@
+
+ @textColor:rgb(68, 10, 226);
+// @btnColor:rgb(12, 73, 241);
+// @bgColorBtn:rgb(221, 204, 248);
+@fontSize:50px;
+@fontSizebtn:18px;
+@textCenter:center;
+@fontWeight:15px;
+@fontWeightbtn:7px;
+@fontStyle:italic;
+@mypadding: 8px;
+@marginBtn:2px;
+@borderwidth:10px;
+@borderradius:15px;
+#colors(){
+    textColor:rgb(68, 10, 226);
+btnColor:rgb(12, 73, 241);
+bgColorBtn:rgb(221, 204, 248);
+}
+
+#header1{
+    .mixin(@textColor, @mypadding);  
+}
+
+#header1{
+    p{
+        font-weight:@fontWeight ;
+        font-size: @fontSize;
+        font-style: @fontStyle;
+        border: 3px double #a347e9;
+     border-radius: @borderradius;
+     text-align: @textCenter;
+     
+        
+    }
+} 
+
+.mixin (@color ; @padding){
+    color:#colors[textColor];
+    padding: @padding;
+}
+
+#header1 p:hover {
+    border-width:@borderwidth ;
+  }
+
+
+  #myBtn{
+    border-radius: @borderradius;
+    color: #colors[btnColor];
+    font-weight:@fontWeightbtn ;
+    font-size: @fontSizebtn;
+    padding: 6px;
+    background-color: #colors[bgColorBtn];
+    margin: @marginBtn;
+    &:hover{
+        background-color: rgb(188, 233, 235);
+    }
+  }

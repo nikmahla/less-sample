@@ -1,0 +1,18 @@
+#header2 p {
+  font-weight: 15px;
+  font-size: 50px;
+  font-style: italic;
+  border: 3px double #a347e9;
+  border-radius: 15px;
+  text-align: center;
+}
+
+#header2 p:hover {
+  border-width: 10px;
+}
+
+#header2 {
+  border: 1px solid blue;
+}
+
+/*# sourceMappingURL=style.css.map */

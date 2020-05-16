@@ -1,0 +1,15 @@
+#header2 p {
+  font-weight: 15px;
+  font-size: 50px;
+  font-style: italic;
+  border: 3px double #e947c6;
+  border-radius: 15px;
+  text-align: center;
+  color: red;
+}
+
+#header2 p:hover {
+  border-width: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
